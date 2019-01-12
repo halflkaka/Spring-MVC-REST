@@ -1,6 +1,9 @@
 A simple Restful service built by Spring MVC. Use Spring-Boot-initializer to initialize the project.  
 Tutorial can be found on https://www.youtube.com/watch?v=QHjFVajYYHM.
 
+# Usage
+Open and run the project in Eclipse or Intellij IDEA. Use Postman for testing.
+
 # What is JPA?
 Java Persistence API.  Mapping Java objects to database tables and vice versa is called /Object-relational mapping/ (ORM). The Java Persistence API (JPA) is one possible approach to ORM. Via JPA the developer can map, store, update and retrieve data from relational databases to Java objects and vice versa.
 
