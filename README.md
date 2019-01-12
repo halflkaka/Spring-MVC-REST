@@ -33,7 +33,7 @@ Automatically generates getters, setters, toString() methods for the fields in a
 Defining this interface serves two purposes: First, by extending JpaRepository we get a bunch of generic CRUD methods into our type that allows saving Accounts, deleting them and so on. Second, this will allow the Spring Data JPA repository infrastructure to scan the classpath for this interface and create a Spring bean for it.
 
 # H2
-H2 is a in-memory database. Here use BootStrapData to initialize data in H2.
+H2 is a in-memory database. Here use BootStrapData class to initialize data in H2.
 # Controller
 Use annotation @RestController, @RequestMapping.  
 Important to add @Service to implementation class so that the controller can distinguish.
