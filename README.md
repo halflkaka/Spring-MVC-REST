@@ -10,7 +10,7 @@ Java Persistence API.  Mapping Java objects to database tables and vice versa is
 # Annotations
 - @Entity
 - @Id
-- @GeneratedValue
+- @GeneratedValue (Automatically generate property in DB)
 - @Transient (not stored in DB)
 
 # Example
@@ -29,7 +29,7 @@ public class Customer {
 # Lombok
 Automatically generates getters, setters, toString() methods for the fields in a Java class.
 # Repository support
-`public interface AccountRepository extends JpaRepository<Account, Long> { … }`
+`public interface AccountRepository extends JpaRepository<Account, Long> { … }`  
 Defining this interface serves two purposes: First, by extending JpaRepository we get a bunch of generic CRUD methods into our type that allows saving Accounts, deleting them and so on. Second, this will allow the Spring Data JPA repository infrastructure to scan the classpath for this interface and create a Spring bean for it.
 
 # H2
